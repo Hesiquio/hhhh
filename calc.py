@@ -15,7 +15,8 @@ while(sel!=0):
 	sel=int(input("Ingrese el numero de la opcion que desea ejecutar: "))
 	
 	if sel == 1:
-		print("Suma")
+		print(" ")
+		print("Ha elegido la opcion Suma")
 		a=int(input("Ingrese el numero 1: "))
 		b=int(input("Ingrese el numero 2: "))
 		suma=a+b
@@ -23,7 +24,8 @@ while(sel!=0):
 		print(" ")
 
 	elif sel==2:
-		print("Resta")
+		print(" ")
+		print("Ha elegido la opcion Resta")
 		a=int(input("Ingrese el numero 1: "))
 		b=int(input("Ingrese el numero 2: "))
 		resta=a-b
@@ -31,7 +33,8 @@ while(sel!=0):
 		print(" ")
 		
 	elif sel==3:
-		print("Multiplicacion")
+		print(" ")
+		print("Ha elegido la opcion Multiplicacion")
 		a=int(input("Ingrese el numero 1: "))
 		b=int(input("Ingrese el numero 2: "))
 		mult=a*b
@@ -39,7 +42,8 @@ while(sel!=0):
 		print(" ")
 		
 	elif sel==4:
-		print("Division")
+		print(" ")
+		print("Ha elegido la opcion Division")
 		a=int(input("Ingrese el numero 1: "))
 		b=int(input("Ingrese el numero 2: "))
 		div=a/b
@@ -47,6 +51,7 @@ while(sel!=0):
 		print(" ")
 		
 	elif sel==0:
+		print(" ")
 		print("Adios")
 		
 	else:
