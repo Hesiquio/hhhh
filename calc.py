@@ -9,6 +9,8 @@ while(sel!=0):
 	print("2 Resta")
 	print("3 Multiplicacion")
 	print("4 Division")
+	print("5 Verificacion")
+	#Linea de codigo modificada por terceros lol
 	print("0 Salir")
 	print(" ")
 	
@@ -53,7 +55,9 @@ while(sel!=0):
 	elif sel==0:
 		print(" ")
 		print("Adios")
-		
+	
+	elif sel==5:
+		print("Verificado por Karely, Karla y Avila")
 	else:
 		print("Opcion no valida")
 		
